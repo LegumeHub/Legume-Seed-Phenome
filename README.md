@@ -12,7 +12,7 @@ For each seed image, the pipeline:
 4. **Segments each seed** using [SAM2](https://github.com/facebookresearch/sam2) (Facebook's Segment Anything Model 2)
 5. **Extracts dominant color** per image using ColorThief, converted to CIE Lab color space
 6. **Clusters seed pixels** into two groups (lighter C0, darker C1) via K-means
-7. **Computes shape metrics** — area (mm², cm²) and roundness via ellipse fitting
+7. **Computes shape metrics** - area (mm², cm²) and roundness via ellipse fitting
 
 ## Output columns (per image)
 
